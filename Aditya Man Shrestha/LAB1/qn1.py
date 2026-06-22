@@ -3,11 +3,11 @@ def f(x):
 a = int(input("Enter the value of a: "))
 b = int(input("Enter the value of b: "))
 tolerance = 0.001
-max= 100
+max_iter= 100
 if f(a) * f(b) >= 0:
     print("Invalid interval. Root is not bracketed.")
 else:
-    for i in range(max):
+    for i in range(max_iter):
         c = (a + b) / 2
 
         if f(c) == 0:
