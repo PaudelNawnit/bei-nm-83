@@ -28,3 +28,4 @@ for iteration in range(max_iterations):
 
 print(f"Dominant Eigenvalue: {lambda_new:.5f}")
 print("Corresponding Eigenvector:", x)
+#End
